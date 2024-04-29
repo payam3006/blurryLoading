@@ -14,7 +14,7 @@ const start = () => {
   }, 20);
 };
 
-window.addEventListener("load", start());
+window.addEventListener("load", start);
 // for (let i = 1; i < 1000; i++) {
 //   setTimeout(function () {
 //     mainBlur.style.filter = `blur(${10 - i / 10}px)`;
